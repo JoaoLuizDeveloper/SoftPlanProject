@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SoftPlanAPI</name>
+    </assembly>
+    <members>
+        <member name="M:SoftPlanAPI.Controllers.CalcTaxesController.CalculaJuros(System.Decimal,System.Int32)">
+            <summary>
+            Calculing the interest
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SoftPlanAPI.Controllers.CalcTaxesController.ShowMeTheCode">
+            <summary>
+            Show me the code
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SoftPlanAPI.Controllers.InterestTaxesController.GetInterestTaxes">
+            <summary>
+            Get the Interest taxes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SoftPlanAPI.Queries.InterestTax.GetInterestTax">
+            <summary>
+            Leitura da base
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SoftPlanAPI.Services.CalcTaxesHandlers.Handle(SoftPlanAPI.Services.CalcTaxes,System.Threading.CancellationToken)">
+            <summary>
+            Calc Interests
+            </summary>
+            <param name="message"><see cref="T:System.Threading.CancellationToken"/></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SoftPlanAPI.Services.NotificationHandler">
+            <summary>
+            Notification
+            </summary>
+        </member>
+        <member name="M:SoftPlanAPI.Services.ResponseMessage`1.#ctor(`0,System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+            <param name="errors"></param>
+        </member>
+        <member name="M:SoftPlanAPI.Services.ResponseMessage`1.op_Implicit(`0)~SoftPlanAPI.Services.ResponseMessage{`0}">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+        </member>
+    </members>
+</doc>
